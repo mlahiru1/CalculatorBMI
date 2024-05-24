@@ -40,7 +40,7 @@ label_height.grid(row=1, column=0, padx=10, pady=10)
 entry_height = tk.Entry(root)
 entry_height.grid(row=1, column=1, padx=10, pady=10)
 
-button_cal = tk.Button(root, text="Calculate BMI", command=cal_bmi)
+button_cal = tk.Button(root, text="Calculate BMI" command=cal_bmi)
 button_cal.grid(row=2, column=0, columnspan=2, pady=10)
 
 label_result = tk.Button(root, text="BMI: ")
