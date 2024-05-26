@@ -35,7 +35,7 @@ entry_weight = tk.Entry(root)
 entry_weight.grid(row=0, column=1, padx=10, pady=10)
 
 label_height = tk.Label(root, text="Height (cm):")
-label_height.grid(row=1, column=0, padx=10, pady=10
+label_height.grid(row=1, column=0, padx=10, pady=10)
 
 entry_height = tk.Entry(root)
 entry_height.grid(row=1, column=1, padx=10, pady=10)
