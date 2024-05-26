@@ -28,7 +28,7 @@ root = tk.Tk()                  # create main window
 root.title("BMI Calculator")
 
 # create & place widgets
-label_weight = tk.Label(root, text="weight (Kg):")
+label_weight = tk.Label(root, text="Weight (Kg):")
 label_weight.grid(row=0, column=0, padx=10, pady=10)
 
 entry_weight = tk.Entry(root)
