@@ -9,7 +9,7 @@ def cal_bmi():
         bmi = weight / (height ** 2)
         display_bmi(bmi)
     except ValueError:
-        messagebox.showerror("Invalid input", "Please enter valid numbers")
+        messagebox.showerr("Invalid input", "Please enter valid numbers")
 
 
 def display_bmi(bmi):
